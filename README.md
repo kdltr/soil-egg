@@ -10,7 +10,7 @@ The source is available on [GitHub](https://github.com/dleslie/soil-egg)
 
 The interface adheres closely to the stock SOIL interface.
 
-soil is known to work on Linux, Mac OS X, Windows, and with OpenGL ES. soil will automatically compile with ES support on ARM hardware, or when `gles` is defined during compilation (e.g. `chicken-install -D gles`).
+soil is known to work on Linux, Mac OS X, Windows, and with OpenGL ES.
 
 Much thanks to Jonathan Dummer for writing the original SOIL library.
 
@@ -296,8 +296,11 @@ Dan Leslie (dan@ironoxide.ca)
 
 Alex Charlton (alex.n.charlton@gmail.com)
 
+Adrien (Kooda) Ramos (kooda@upyum.com)
+
 ## Version history
 
+- 1.6: Ported to CHICKEN 5 and libepoxy
 - 1.3: Remove `dds-cubemap-face-order`, fix texture creation function return values, support OpenGL ES
 - 1.2: SOIL source built into egg
 - 1.1: Added procedures to retrieve texture size

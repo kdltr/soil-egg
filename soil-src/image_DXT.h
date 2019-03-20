@@ -46,6 +46,7 @@ convert_image_to_DXT5
 );
 
 /**	A bunch of DirectDraw Surface structures and flags **/
+#if 0
 typedef struct
 {
     unsigned int    dwMagic;
@@ -84,6 +85,7 @@ typedef struct
     unsigned int    dwReserved2;
 }
 DDS_header ;
+#endif
 
 /*	the following constants were copied directly off the MSDN website	*/
 
