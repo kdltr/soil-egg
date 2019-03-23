@@ -6,7 +6,7 @@
 
 [SOIL](http://www.lonesock.net/soil.html) bindings for Chicken.
 
-The source is available on [GitHub](https://github.com/dleslie/soil-egg)
+The source is available on [a git repository](https://www.upyum.com/cgit.cgi/soil-egg/).
 
 The interface adheres closely to the stock SOIL interface.
 
