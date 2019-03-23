@@ -1,6 +1,7 @@
 ((license "BSD")
  (category io)
  (author "Daniel J. Leslie")
+ (maintainer "Adrien (Kooda) Ramos")
  (foreign-dependencies "libepoxy")
  (synopsis "Lightweight, simple library for loading image files into OpenGL-friendly format.")
  (components (extension soil (custom-build build-epoxy))))
